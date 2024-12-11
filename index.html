@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoology</title>
+    
+    <!-- Web App Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Schoology">
+    
+    <!-- Icon -->
+    <link rel="apple-touch-icon" href="icon.JPG">
+    
+    <!-- Home Screen Link -->
+    <meta name="apple-mobile-web-app-title" content="Schoology">
+    <link rel="apple-touch-startup-image" href="icon.JPG">
+    
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-weight: bold;
+            font-size: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Schoology</h1>
+    
+    <script>
+        // Set the custom URL when added to home screen
+        if (window.navigator.standalone) {
+            window.location.href = "https://tinyurl.com/agames1";
+        }
+    </script>
+</body>
+</html>
