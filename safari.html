@@ -1,1 +1,45 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safari</title>
+    
+    <!-- Web App Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="Safari">
+    <meta name="apple-mobile-web-app-title" content="Schoology">
+    
+    <!-- Icon -->
+    <link rel="apple-touch-icon" href="safari.png">
+    
+    <!-- Home Screen Link -->
+    <meta name="apple-mobile-web-app-title" content="Safari">
+    <link rel="apple-touch-startup-image" href="safari.png">
+    
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-weight: bold;
+            font-size: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Safari</h1>
+    
+    <script>
+        // Set the custom URL when added to home screen
+        if (window.navigator.standalone) {
+            window.location.href = "https://tinyurl.com/agames1";
+        }
+    </script>
+</body>
+</html>
